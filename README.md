@@ -1,5 +1,5 @@
 # Countdown_timer
-A timer which counts down (days/min/secs) to a certain date time. Uses data from a data provider. Ability to change background color, complete text, and
+A timer which counts down (days/min/secs) to a certain date time. Uses data from a data provider. Ability to change background color, complete text, and more!
 
 # Description
 A timer which counts down (days/min/secs) to a certain date time. Uses data from a data provider. Ability to change background color, complete text, and
