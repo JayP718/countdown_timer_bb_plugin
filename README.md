@@ -1,5 +1,5 @@
 # Countdown_timer
-This is a readme for your new Budibase plugin.
+A timer which counts down (days/min/secs) to a certain date time. Uses data from a data provider. Ability to change background color, complete text, and
 
 # Description
 A timer which counts down (days/min/secs) to a certain date time. Uses data from a data provider. Ability to change background color, complete text, and
