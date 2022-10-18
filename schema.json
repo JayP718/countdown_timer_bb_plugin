@@ -1,0 +1,61 @@
+{
+  "type": "component",
+  "metadata": {},
+  "schema": {
+    "name": "timer",
+    "friendlyName": "timer",
+    "description": " The timer counts down to a specific date time. The timer can use a field from a datasource provider.",
+    "icon": "Text",
+    "settings": [
+      {
+        "type": "field/number",
+        "label": "Field",
+        "key": "field",
+        "required": true
+      },
+      {
+        "type": "select",
+        "options": [
+          "small",
+          "medium",
+          "large"
+        ],
+        "defaultValue": "large",
+        "key": "size",
+        "label": "Size"
+      },
+      {
+        "type": "select",
+        "options": [
+          {
+            "label": "Square",
+            "value": "0%"
+          },
+          {
+            "label": "Medium-Rounded",
+            "value": "10%"
+          },
+          {
+            "label": "Round",
+            "value": "100%"
+          }
+        ],
+        "key": "shape",
+        "defaultValue": "0%",
+        "label": "Shape"
+      },
+      {
+        "type": "color",
+        "label": "Background Color",
+        "defaultValue":"4CAF50",
+        "key": "color"
+      },
+      {
+        "type": "text",
+        "label": "Countdown Reached Text",
+        "defaultValue": "Complete",
+        "key": "complete_text"
+      }
+    ]
+  }
+}
