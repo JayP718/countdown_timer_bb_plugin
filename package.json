@@ -1,6 +1,6 @@
 {
   "name": "countdown_timer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A timer which counts down (days/min/secs) to a certain date time. Uses data from a data provider. Ability to change background color, complete text, and",
   "license": "MIT",
   "svelte": "index.js",
