@@ -2,25 +2,21 @@
   "type": "component",
   "metadata": {},
   "schema": {
-    "name": "timer",
+    "name": "countdown_timer",
     "friendlyName": "timer",
     "description": " The timer counts down to a specific date time. The timer can use a field from a datasource provider.",
     "icon": "Text",
     "settings": [
       {
-        "type": "field/number",
+        "type": "field/datetime",
         "label": "Field",
         "key": "field",
         "required": true
       },
       {
         "type": "select",
-        "options": [
-          "small",
-          "medium",
-          "large"
-        ],
-        "defaultValue": "large",
+        "options": ["Small", "Medium", "Large"],
+        "defaultValue": "Large",
         "key": "size",
         "label": "Size"
       },
@@ -47,7 +43,7 @@
       {
         "type": "color",
         "label": "Background Color",
-        "defaultValue":"4CAF50",
+        "defaultValue": "#4CAF50",
         "key": "color"
       },
       {
